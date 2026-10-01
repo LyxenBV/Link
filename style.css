@@ -1,0 +1,19 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif}
+body{background-color:#f8f9fa;background-image:radial-gradient(#cbd5e1 1.5px,transparent 1.5px),radial-gradient(#cbd5e1 1.5px,#f8f9fa 1.5px);background-size:24px 24px;background-position:0 0,12px 12px;color:#333;display:flex;justify-content:center;align-items:center;min-height:100vh;padding:40px 20px}
+.container{width:100%;max-width:650px;background:#fff;border:1px solid #e2e8f0;padding:50px 40px;border-radius:28px;text-align:center;box-shadow:0 20px 40px rgba(0,0,0,0.1)}
+.profile-img{width:160px;height:160px;border-radius:50%;object-fit:cover;border:5px solid #00adb5;margin-bottom:20px;box-shadow:0 10px 25px rgba(0,0,0,0.15)}
+h1{font-size:32px;margin-bottom:10px;color:#0f172a}
+p{font-size:16px;color:#64748b;margin-bottom:35px}
+.links-container{display:flex;flex-direction:column;gap:22px}
+.social-btn{display:flex;align-items:center;background:#f8fafc;color:#1e293b;text-decoration:none;padding:22px 30px;border-radius:18px;font-size:20px;font-weight:600;transition:all 0.3s ease;border:1px solid #cbd5e1}
+.social-btn i,.social-btn svg{font-size:26px;margin-right:20px;width:30px;text-align:center;fill:currentColor}
+.social-btn:hover{transform:translateY(-4px);box-shadow:0 10px 25px rgba(0,0,0,0.15)}
+.whatsapp:hover{background:#25d366;color:#fff;border-color:#25d366}
+.email:hover{background:#ea4335;color:#fff;border-color:#ea4335}
+.instagram:hover{background:#e1306c;color:#fff;border-color:#e1306c}
+.facebook:hover{background:#1877f2;color:#fff;border-color:#1877f2}
+.telegram:hover{background:#229ed9;color:#fff;border-color:#229ed9}
+.linkedin:hover{background:#0a66c2;color:#fff;border-color:#0a66c2}
+.x-twitter:hover{background:#000;color:#fff;border-color:#000}
+.youtube:hover{background:#ff0000;color:#fff;border-color:#ff0000}
+.website:hover{background:#151616;color:#fff;border-color:#3498db}
